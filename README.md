@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-Execute "yarn start" no terminal, logo apos "yarn start" para rodar o projeto!
+Execute "yarn install" no terminal para baixar as dependencias, logo apos "yarn start" para rodar o projeto!
 
 In the project directory, you can run:
 
