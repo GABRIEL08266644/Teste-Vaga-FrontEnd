@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+//slider itens
 import Slider from '../../components/Slider';
 import { HomeStyles, Cards, Model } from './styles';
 import { SliderComponent } from '../../components/Slider/styles';
@@ -15,6 +16,7 @@ import imgTeclado from '../../../assets/banners/foto4.jpg';
 import imgViolao from '../../../assets/banners/foto5.jpg';
 import imgBateria from '../../../assets/banners/foto6.jpg';
 
+//seta do slider
 const properties = {
   duration: 5000,
   transitionDuration: 500,
@@ -23,6 +25,7 @@ const properties = {
   nextArrow: <div style={{width: "30px", marginLeft: "-30px"}}><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#fff"><path d="M512 256L270 42.6v138.2H0v150.6h270v138z"/></svg></div>
 };
 
+//produtos 
 const data = {
   "success": true,
   "products": [
@@ -106,13 +109,9 @@ const data = {
 let produtoModal;
 let indexProd;  
 
+//mostra o produto maior
 const Home = () => {
   const [statusModal, setStatusModal] = useState(false);
-
-  
-  
-  
-  
   const Modal = () => {
     produtoModal.price = String(produtoModal.price);
                 
@@ -142,6 +141,7 @@ const Home = () => {
     )
   };
 
+  //cria os produtos 
   const modal = statusModal ? (
     <Modal />
   ) : null;
@@ -194,7 +194,7 @@ const Home = () => {
       </Cards>
     );
   };
-
+  //slider
   return (
     <>
       <section>

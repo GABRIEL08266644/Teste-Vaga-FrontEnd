@@ -5,7 +5,7 @@ import Routers from './routers';
 import GlobalStyle from './css/style';
 import Header from './views/components/Header';
 import Footer from './views/components/Footer';
-import Home from './views/pages/Home'
+import Home from './views/pages/Home';
 
 function App() {
   return (
