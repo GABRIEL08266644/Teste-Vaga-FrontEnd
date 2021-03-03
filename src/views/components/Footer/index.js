@@ -13,8 +13,8 @@ const Footer = () => {
   return (
     <FooterStyle>
       <footer>
-        <div class="container-footer">
-            <div class="container-itens">
+        <div className="container-footer">
+            <div className="container-itens">
                 <p>institucional</p>
                 <a href="#">quem somos</a>
                 <a href="#">nossas lojas</a>
@@ -22,16 +22,16 @@ const Footer = () => {
                 <a href="#">fale conosco</a>
                 <a href="#">vendas ninjasom.com.br</a>
             </div>
-            <div class="container-itens">
+            <div className="container-itens">
                 <p>ajuda e suporte</p>
                 <a href="#">política de privacidade</a>
                 <a href="#">política de trocas</a>
                 <a href="#">prazo de entrega</a>
                 <a href="#">termos de uso</a>
             </div>
-            <div class="container-itens">
+            <div className="container-itens">
                 <p>fromas de pagamentos</p>
-                <div class="container-formas-pagamento">
+                <div className="container-formas-pagamento">
                     <div className="ln-1">
                         <img src={imgVisa} alt=""/>
                         <img src={imgMasCard} alt=""/>
@@ -43,13 +43,13 @@ const Footer = () => {
                     </div>   
                 </div>
                 <p>segurança</p>
-                <div class="container-seguranca">
+                <div className="container-seguranca">
                     <img src={imgSeguranca} alt=""/>
                     <img src={imgSeguranca} alt=""/>
                 </div>
             </div>
-            <div class="container-itens">
-                <div class="container-email">
+            <div className="container-itens">
+                <div className="container-email">
                     <p>assine nosso newsletter<br/>
                     e receba novidades e promoçẽs</p>
                     <input type="text" placeholder="SEU NOME" name="" id=""/>
@@ -58,7 +58,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-        <div class="conteiner-footer-end">
+        <div className="conteiner-footer-end">
             <p>
                 NINJA COM COMÉRCIO DE ELETRÔNICOS LTDA 2012-2019, todos os direitos reservados. Rua Santa Catarina
                 <br/>
